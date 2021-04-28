@@ -112,7 +112,7 @@ function Profile() {
             </div>
             <div className="profile-details col s12 m6 l6">
               <h4>{userProfile.user.name}</h4>
-              <h4>{userProfile.user.email}</h4>
+              <h6>{userProfile.user.email}</h6>
               <div
                 style={{
                   display: "flex",

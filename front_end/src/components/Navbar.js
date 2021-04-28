@@ -178,6 +178,14 @@ const Navbar = () => {
             M.Sidenav.getInstance(searchSideNav.current).close();
           }}
         >
+          <Link to="/">Home</Link>
+        </li>,
+        <li
+          key="2"
+          onClick={() => {
+            M.Sidenav.getInstance(searchSideNav.current).close();
+          }}
+        >
           <Link to="/profile">Profile</Link>
         </li>,
         <li

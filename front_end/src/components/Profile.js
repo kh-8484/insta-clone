@@ -81,7 +81,7 @@ function Profile() {
           </div>
           <div className="profile-details col s12 m6 l6">
             <h4>{state ? state.name : "loading"}</h4>
-            <h5>{state ? state.email : "loading"}</h5>
+            <h6>{state ? state.email : "loading"}</h6>
             <div
               style={{
                 display: "flex",
